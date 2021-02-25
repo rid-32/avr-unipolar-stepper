@@ -15,3 +15,5 @@ UniStepper::UniStepper(volatile uint8_t *port, uint8_t pin0, uint8_t pin1,
   /* clear PORT */
   *port &= ~(1 << pin0 | 1 << pin1 | 1 << pin2 | 1 << pin3);
 }
+
+void UniStepper::step() {}
