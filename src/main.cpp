@@ -7,6 +7,6 @@ int main() {
   while (true) {
     motor.step();
 
-    _delay_ms(500);
+    _delay_ms(50);
   }
 }
